@@ -20,7 +20,7 @@ let lowerWeight;
 
 //ciclo l'array di oggetti
 for(let i =0; i<bikes.length; i++){
-if(weight<bikes[i].peso){
+if(weight>bikes[i].peso){
     lowerWeight= bikes[i];
     weight= bikes[i].peso
 }
