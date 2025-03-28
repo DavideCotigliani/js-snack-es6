@@ -54,3 +54,14 @@ const teams =[
         fallisubiti: 0,
     }
 ]
+
+//generare numeri random e inserirli in una funzione
+const randomNumbers = () =>{
+    return Math.floor(Math.random()*10) +1
+}
+// ciclare i numeri random nelle proprietà punti fatti e falli subiti
+for(let i=0; i<teams.length; i++){
+    teams[i].puntifatti= randomNumbers();
+    teams[i].fallisubiti= randomNumbers();
+}
+console.log(teams)
