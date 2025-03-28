@@ -1,4 +1,5 @@
 //esercizio 1
+
 // creo l'array di oggetti
 const bikes = [
     {
@@ -26,3 +27,30 @@ if(weight>bikes[i].peso){
 }
 }
 console.log(lowerWeight);
+
+
+// esercizio 2
+
+//creo array di oggetti di squadre di calcio
+const teams =[
+    {
+        nomeclub : 'Lazio',
+        puntifatti: 0,
+        fallisubiti: 0,
+    },
+    {
+        nomeclub: 'Juventus',
+        puntifatti: 0,
+        fallisubiti: 0,
+    },
+    {
+        nomeclub: 'Roma',
+        puntifatti: 0,
+        fallisubiti: 0,
+    },
+    {
+        nomeclub: 'Milan',
+        puntifatti: 0,
+        fallisubiti: 0,
+    }
+]
