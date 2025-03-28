@@ -32,7 +32,7 @@ console.log(lowerWeight);
 // esercizio 2
 
 //creo array di oggetti di squadre di calcio
-const teams =[
+let teams =[
     {
         nomeclub : 'Lazio',
         puntifatti: 0,
@@ -64,4 +64,11 @@ for(let i=0; i<teams.length; i++){
     teams[i].puntifatti= randomNumbers();
     teams[i].fallisubiti= randomNumbers();
 }
-console.log(teams)
+// creare un nuovo array che contiene solo nomi e falli subiti
+const newArray= [];
+for(let i=0; i<teams.length;i++){
+   newArray.push(teams[i].nomeclub)
+   newArray.push(teams[i].fallisubiti)
+}
+// visualizzare il risultato in console
+console.log(newArray);
